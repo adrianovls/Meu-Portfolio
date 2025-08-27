@@ -1,0 +1,65 @@
+/* ESTILOS GERAIS DO BODY */
+body{
+    /* tipo de fonte do site */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0; /* tira a margem padrão do navegador */
+    padding: 0; /* tira o padding padrão */
+    background-color: #000000; /* fundo preto */
+}
+
+/* CABEÇALHO */
+header{
+    background-color: #000000; /* fundo preto do header */
+    padding: 15px; /* espaço dentro do header */
+    text-align: center; /* centraliza o texto */
+}
+
+/* TÍTULO DENTRO DO HEADER */
+header h1{
+    color: #DDDDDD; /* cor do texto cinza claro */
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+    margin-top: 10px; /* espaço acima do menu */
+}
+
+/* LINKS DO MENU */
+nav a{
+    text-decoration: none; /* tira o sublinhado do link */
+    color: white; /* cor do texto branca */
+    padding: 10px 20px; /* espaço dentro do botão */
+    background-color: #111; /* fundo escuro */
+    border: none; /* sem borda */
+    border-radius: 20px; /* bordas arredondadas */
+    transition: all 0.3s ease; /* animação suave quando passa o mouse */
+    margin: 0 10px; /* espaço entre os links */
+    display: inline-block; /* deixa lado a lado */
+}
+
+/* EFEITO QUANDO PASSA O MOUSE NOS LINKS */
+nav a:hover{
+    color: #000000; /* muda cor do texto para preto */
+    background-color: #ffffff; /* fundo branco */
+    transform: translateY(-5px); /* sobe um pouquinho */
+    box-shadow: 0 5px 15px #5f5f5f; /* sombra para parecer que tá levantando */
+}
+
+/* CONTEÚDO PRINCIPAL */
+main{
+    color: #FFFFFF; /* cor do texto branco */
+    padding: 20px; /* espaço dentro do main */
+    background-color: #111; /* fundo escuro */
+    margin: 20px; /* espaço fora do main */
+    border-radius: 5px; /* cantos arredondados */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* fonte do conteúdo */
+}
+
+/* RODAPÉ */
+footer{
+    text-align: center; /* centraliza o texto */
+    padding: 10px; /* espaço dentro do footer */
+    background-color: #000000; /* fundo preto */
+    color: white; /* texto branco */
+    margin-top: 925px; /* espaço acima do footer (não é o ideal, mas tá funcionando pra empurrar pra baixo) */
+}
